@@ -1,4 +1,6 @@
 import sys
+p=3.141592653
+q=2*p
 a=float(input("Enter the first number--> "))
 b=float(input("Enter the second number(if any,else 0)--> "))
 c=int(input('''Enter
