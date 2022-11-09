@@ -13,6 +13,16 @@ c=int(input('''Enter
                9 for sin(first number)
                10 for cos(first number)
                11 for tan(first number)-->'''))
+if c>=9:
+    if a>0:
+        if a>q:
+            r=int(a/q)
+            a=a-r*q
+    else:
+        z=-a 
+        if z>q:
+            r=int(z/q)
+            a=-(z-r*q)
 #undefined:
 if c==11:
     if a%(1.57)==0:
